@@ -1,5 +1,3 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
 interface Metrics {
@@ -104,7 +102,7 @@ function buildHtml(metrics: Metrics, fileName: string): string {
     h2 { color: #007acc; }
     table { border-collapse: collapse; width: 100%; margin-bottom: 16px; }
     td, th { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
-    th { background: #f0f0f0; }
+    th { background: #f0f0f0; color: #000000; font-weight: bold; }
     ul { columns: 2; }
 </style>
 </head>
